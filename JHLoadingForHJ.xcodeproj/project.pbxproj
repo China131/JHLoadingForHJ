@@ -15,6 +15,10 @@
 		E949F62A1D5ABEE20096CE42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E949F6281D5ABEE20096CE42 /* LaunchScreen.storyboard */; };
 		E949F6351D5ABEE20096CE42 /* JHLoadingForHJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E949F6341D5ABEE20096CE42 /* JHLoadingForHJTests.m */; };
 		E949F6401D5ABEE20096CE42 /* JHLoadingForHJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E949F63F1D5ABEE20096CE42 /* JHLoadingForHJUITests.m */; };
+		E949F6501D5ABF3A0096CE42 /* JHHJView.m in Sources */ = {isa = PBXBuildFile; fileRef = E949F64F1D5ABF3A0096CE42 /* JHHJView.m */; };
+		E97EFF101D5B1B8700EB81BE /* 加载.gif in Resources */ = {isa = PBXBuildFile; fileRef = E97EFF0F1D5B1B8700EB81BE /* 加载.gif */; };
+		E98ABD531D5AC54B0067EFC2 /* JHHJAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E98ABD521D5AC54B0067EFC2 /* JHHJAnimation.m */; };
+		E98ABD561D5ACB310067EFC2 /* JHHJCenterBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = E98ABD551D5ACB310067EFC2 /* JHHJCenterBGView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		E949F63B1D5ABEE20096CE42 /* JHLoadingForHJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHLoadingForHJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E949F63F1D5ABEE20096CE42 /* JHLoadingForHJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHLoadingForHJUITests.m; sourceTree = "<group>"; };
 		E949F6411D5ABEE20096CE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E949F64E1D5ABF3A0096CE42 /* JHHJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHJView.h; sourceTree = "<group>"; };
+		E949F64F1D5ABF3A0096CE42 /* JHHJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHJView.m; sourceTree = "<group>"; };
+		E97EFF0F1D5B1B8700EB81BE /* 加载.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载.gif"; sourceTree = "<group>"; };
+		E98ABD511D5AC54B0067EFC2 /* JHHJAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHJAnimation.h; sourceTree = "<group>"; };
+		E98ABD521D5AC54B0067EFC2 /* JHHJAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHJAnimation.m; sourceTree = "<group>"; };
+		E98ABD541D5ACB310067EFC2 /* JHHJCenterBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHJCenterBGView.h; sourceTree = "<group>"; };
+		E98ABD551D5ACB310067EFC2 /* JHHJCenterBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHJCenterBGView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,8 @@
 		E949F6191D5ABEE20096CE42 /* JHLoadingForHJ */ = {
 			isa = PBXGroup;
 			children = (
+				E97EFF0E1D5B1B7D00EB81BE /* Image */,
+				E949F64D1D5ABF130096CE42 /* JHLoadingForHJ */,
 				E949F61D1D5ABEE20096CE42 /* AppDelegate.h */,
 				E949F61E1D5ABEE20096CE42 /* AppDelegate.m */,
 				E949F6201D5ABEE20096CE42 /* ViewController.h */,
@@ -138,6 +151,27 @@
 				E949F6411D5ABEE20096CE42 /* Info.plist */,
 			);
 			path = JHLoadingForHJUITests;
+			sourceTree = "<group>";
+		};
+		E949F64D1D5ABF130096CE42 /* JHLoadingForHJ */ = {
+			isa = PBXGroup;
+			children = (
+				E949F64E1D5ABF3A0096CE42 /* JHHJView.h */,
+				E949F64F1D5ABF3A0096CE42 /* JHHJView.m */,
+				E98ABD511D5AC54B0067EFC2 /* JHHJAnimation.h */,
+				E98ABD521D5AC54B0067EFC2 /* JHHJAnimation.m */,
+				E98ABD541D5ACB310067EFC2 /* JHHJCenterBGView.h */,
+				E98ABD551D5ACB310067EFC2 /* JHHJCenterBGView.m */,
+			);
+			path = JHLoadingForHJ;
+			sourceTree = "<group>";
+		};
+		E97EFF0E1D5B1B7D00EB81BE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E97EFF0F1D5B1B8700EB81BE /* 加载.gif */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +280,7 @@
 				E949F62A1D5ABEE20096CE42 /* LaunchScreen.storyboard in Resources */,
 				E949F6271D5ABEE20096CE42 /* Assets.xcassets in Resources */,
 				E949F6251D5ABEE20096CE42 /* Main.storyboard in Resources */,
+				E97EFF101D5B1B8700EB81BE /* 加载.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E949F6501D5ABF3A0096CE42 /* JHHJView.m in Sources */,
+				E98ABD531D5AC54B0067EFC2 /* JHHJAnimation.m in Sources */,
 				E949F6221D5ABEE20096CE42 /* ViewController.m in Sources */,
 				E949F61F1D5ABEE20096CE42 /* AppDelegate.m in Sources */,
+				E98ABD561D5ACB310067EFC2 /* JHHJCenterBGView.m in Sources */,
 				E949F61C1D5ABEE20096CE42 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +534,7 @@
 				E949F6461D5ABEE20096CE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E949F6471D5ABEE20096CE42 /* Build configuration list for PBXNativeTarget "JHLoadingForHJTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +543,7 @@
 				E949F6491D5ABEE20096CE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E949F64A1D5ABEE20096CE42 /* Build configuration list for PBXNativeTarget "JHLoadingForHJUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +552,7 @@
 				E949F64C1D5ABEE20096CE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
